@@ -12,6 +12,7 @@ namespace QuanLyNhanSu
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
+        //day la ham main
         static void Main()
         {
             Application.EnableVisualStyles();

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace QuanLyNhanSu
 {
+    
     public partial class frmMain : Form
     {
         public frmMain()

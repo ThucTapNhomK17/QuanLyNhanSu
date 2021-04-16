@@ -35,6 +35,7 @@ namespace QuanLyNhanSu.DAO
         }
         public List<Employee> GetEmployeeList()
         {
+            
             List<Employee> list = new List<Employee>();
             string query = "select * from Employee";
             DataTable date = dataprovider.Instance.Excutequery(query);

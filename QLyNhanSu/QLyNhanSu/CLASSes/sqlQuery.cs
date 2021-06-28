@@ -21,7 +21,7 @@ namespace KhungGiaoDien
             private set { sqlQuery.instance = value; }
         }
         public static SqlConnection m_SqlConnection;
-        public static string m_ConnectionString = @"Data Source=DESKTOP-G3E7L6G\SQLEXPRESS;Initial Catalog=QuanLyNhanSu;Integrated Security=True";
+        public static string m_ConnectionString = @"Data Source=SHOP\ICLICK;Initial Catalog=QuanLyNhanSu;Integrated Security=True";
         public sqlQuery()
         {
             try
